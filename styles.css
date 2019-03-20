@@ -1,0 +1,21 @@
+body{
+    background-image:url('https://t00.deviantart.net/6XSGrwo2m9MGYUJM_RwjKL5bnP4=/700x350/filters:fixed_height(100,100):origin()/pre00/2a34/th/pre/i/2015/104/3/2/danny_phantom_wallpaper_by_shadowhatesomochao-d8n40l9.png'); 
+    background-size: 100%;
+    text-align: center;
+    }
+button{
+    background-color: black;
+    color: lightGreen;
+    }
+.inpt1{
+    color: lightgreen;
+    background-color: black;
+    }
+.inpt2{
+    color: lightgreen;
+    background-color: black;
+    }
+p{
+    color: lightgreen;
+    font-size: 25px;
+    }
