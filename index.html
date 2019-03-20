@@ -1,0 +1,92 @@
+<!DOCTYPE html> <html><head>
+        <title>Random Name Generator</title>
+    <style>body{
+    background-image:url('https://t00.deviantart.net/6XSGrwo2m9MGYUJM_RwjKL5bnP4=/700x350/filters:fixed_height(100,100):origin()/pre00/2a34/th/pre/i/2015/104/3/2/danny_phantom_wallpaper_by_shadowhatesomochao-d8n40l9.png'); 
+    background-size: 100%;
+    text-align: center;
+    }
+button{
+    background-color: black;
+    color: lightGreen;
+    }
+.inpt1{
+    color: lightgreen;
+    background-color: black;
+    }
+.inpt2{
+    color: lightgreen;
+    background-color: black;
+    }
+p{
+    color: lightgreen;
+    font-size: 25px;
+    }</style></head>
+    <body>
+        <button onclick="female()" id="btn1">Click If You're A Female</button>
+        <button onclick="male()" id="btn2">Click If You're A Male</button>
+        <input placeholder="  Insert Your First Name" class="inpt1">
+        <input placeholder="  Insert Your Last Name" class="inpt2">
+        <p class="target"></p>
+    
+
+<script>
+/*__POPCODESTART__*/
+var a;
+var b;
+var array;
+var firstname;
+var lastname;
+var fullname;
+function female(){
+    firstname = document.querySelector(".inpt1").value;
+    lastname = document.querySelector(".inpt2").value;
+    fullname = firstname + " " + lastname;
+    console.log(fullname);
+    a = Math.floor(6 * Math.random());
+    b = array[a];
+    switch(fullname){
+        case '': alert("");
+        break;
+        default: document.querySelector(".target").innerHTML = b + " "+ firstname + " " + lastname;
+        }
+    array = ['Queen','Minaj','Missy','Da','Dej','Miss'];
+    }
+    
+function male(){
+    firstname = document.querySelector(".inpt1").value;
+    lastname = document.querySelector(".inpt2").value;
+    fullname = firstname + " " + lastname;
+    console.log(fullname);
+    a =Math.floor(6* Math.random());
+    b = array[a];
+    switch(fullname){
+        case 'Mr Donohue': alert("OMGGGGG IT'S MR DONOHUE!!!!!!");
+        break;
+        default: document.querySelector(".target").innerHTML = b + " "+ firstname + " " + lastname;
+        }
+    array=['Lil','Yung','Big','Rich','Wiz','Mr'];
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+array=['Lil','Yung','Big','Rich','Wiz','Mr'];
+//var toLower = z.toLowercase();
+// ____.innerHTML = toLower;</script></body></html>
